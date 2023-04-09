@@ -16,10 +16,10 @@ import {
   IRevokePermissionDecodedParams,
   IRevokePermissionParams,
   Permissions,
-} from "@aragon/sdk-client";
+} from "@bosagora/sdk-client";
 import { context } from "../index";
 
-// Instantiates an Aragon OSx SDK client.
+// Instantiates an BOSagora OSx SDK client.
 const client: Client = new Client(context);
 
 const params: IRevokePermissionParams = {

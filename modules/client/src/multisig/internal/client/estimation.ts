@@ -1,10 +1,10 @@
-import { Multisig__factory } from "@aragon/osx-ethers";
+import { Multisig__factory } from "@bosagora/osx-ethers";
 import {
   boolArrayToBitmap,
   decodeProposalId,
   NoProviderError,
   NoSignerError,
-} from "@aragon/sdk-common";
+} from "@bosagora/sdk-common";
 import {
   ClientCore,
   ContextPlugin,

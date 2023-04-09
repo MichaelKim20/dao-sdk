@@ -1,13 +1,13 @@
 ---
-title: Aragon SDK
+title: BOSagora SDK
 sidebar_label: Intro
 sidebar_position: 0
 ---
 
-## The JavaScript/TypeScript SDK for Aragon OSx
+## The JavaScript/TypeScript SDK for BOSagora OSx
 
-`@aragon/sdk-client` provides easy access to the high level interactions to be
-made with an Aragon DAO. It consists of three different components:
+`@bosagora/sdk-client` provides easy access to the high level interactions to be
+made with an BOSagora DAO. It consists of three different components:
 
 - General-purpose DAO client
 - Custom clients for specific DAO plugins
@@ -18,11 +18,11 @@ Contributors: See [development](#development) below
 ### Installation
 
 Use [npm](https://www.npmjs.com/) or [yarn](https://yarnpkg.com/) to install
-@aragon/sdk-client.
+@bosagora/sdk-client.
 
 ```bash
-npm install @aragon/sdk-client
-yarn add @aragon/sdk-client
+npm install @bosagora/sdk-client
+yarn add @bosagora/sdk-client
 ```
 
 ### Usage
@@ -43,7 +43,7 @@ Then import them like the following **before** you import the Aragon SDK package
 ```javascript
 import '@ethersproject/shims';
 import 'react-native-url-polyfill/auto';
-import {Client} from '@aragon/sdk-client';
+import {Client} from '@bosagora/sdk-client';
 ```
 
 ### Development

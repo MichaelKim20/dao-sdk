@@ -14,7 +14,7 @@ import {
   DaoAction,
   MultisigVotingSettings,
   UpdateMultisigVotingSettingsParams,
-} from "@aragon/sdk-client";
+} from "@bosagora/sdk-client";
 import { multisigClient } from "./index";
 
 const params: UpdateMultisigVotingSettingsParams = {

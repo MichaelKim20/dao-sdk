@@ -17,7 +17,7 @@ import {
   ITokenVotingPluginInstall,
   TokenVotingClient,
   VotingMode,
-} from "@aragon/sdk-client";
+} from "@bosagora/sdk-client";
 import { context } from "../index";
 
 // Insantiate the general purpose client from the Aragon OSx SDK context.

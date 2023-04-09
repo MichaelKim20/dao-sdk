@@ -9,7 +9,7 @@ In order to interact with the `TokenVoting` plugin, you need to create a `TokenV
 This is created using the `ContextPlugin` which grants us access to plugins within the SDK.
 */
 
-import { ContextPlugin, TokenVotingClient } from "@aragon/sdk-client";
+import { ContextPlugin, TokenVotingClient } from "@bosagora/sdk-client";
 import { context } from "../index";
 
 // Instantiate the ContextPlugin from the Aragon OSx SDK context.

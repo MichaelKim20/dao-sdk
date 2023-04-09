@@ -6,7 +6,7 @@ import "../../mocks/aragon-sdk-ipfs";
 import {
   DAO__factory,
   PluginSetupProcessor__factory,
-} from "@aragon/osx-ethers";
+} from "@bosagora/osx-ethers";
 
 import {
   ApplyInstallationParams,
@@ -27,7 +27,7 @@ import {
   UpgradeToAndCallParams,
 } from "../../../src/interfaces";
 import { toUtf8Bytes, toUtf8String } from "@ethersproject/strings";
-import { bytesToHex, hexToBytes } from "@aragon/sdk-common";
+import { bytesToHex, hexToBytes } from "@bosagora/sdk-common";
 import { keccak256 } from "@ethersproject/keccak256";
 import { JsonRpcProvider } from "@ethersproject/providers";
 

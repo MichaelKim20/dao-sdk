@@ -16,10 +16,10 @@ import {
   Client,
   DaoDepositSteps,
   UpdateAllowanceParams,
-} from "@aragon/sdk-client";
+} from "@bosagora/sdk-client";
 import { context } from "../index";
 
-// Instantiate the general purpose client from the Aragon OSx SDK context.
+// Instantiate the general purpose client from the BOSagora OSx SDK context.
 const client: Client = new Client(context);
 
 const updateAllowanceParams: UpdateAllowanceParams = {

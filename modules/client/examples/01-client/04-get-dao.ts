@@ -8,10 +8,10 @@ title: DAO Details
 Gets a DAO's details using its address or ENS domain.
 */
 
-import { Client, DaoDetails } from "@aragon/sdk-client";
+import { Client, DaoDetails } from "@bosagora/sdk-client";
 import { context } from "../index";
 
-// Instantiate the general purpose client from the Aragon OSx SDK context.
+// Instantiate the general purpose client from the BOSagora OSx SDK context.
 const client: Client = new Client(context);
 
 // Address or ENS of the DAO whose metadata you want to retrieve.

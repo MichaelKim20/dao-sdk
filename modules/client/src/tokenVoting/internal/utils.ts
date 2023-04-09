@@ -27,7 +27,7 @@ import {
 import { BigNumber } from "@ethersproject/bignumber";
 import { Result } from "@ethersproject/abi";
 import { AddressZero } from "@ethersproject/constants";
-import { decodeRatio, getCompactProposalId, hexToBytes } from "@aragon/sdk-common";
+import { decodeRatio, getCompactProposalId, hexToBytes } from "@bosagora/sdk-common";
 import { TokenType } from "../../interfaces";
 
 export function toTokenVotingProposal(

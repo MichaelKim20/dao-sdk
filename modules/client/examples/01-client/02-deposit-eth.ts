@@ -5,7 +5,7 @@ title: ETH Deposits
 
 ## Deposit ETH to a DAO
 
-Handles the flow of depositing the native EVM token (when in mainnet, it's ETH) to an Aragon OSx DAO.
+Handles the flow of depositing the native EVM token (when in mainnet, it's ETH) to an BOSagora OSx DAO.
 */
 
 import {
@@ -14,10 +14,10 @@ import {
   DepositParams,
   GasFeeEstimation,
   TokenType,
-} from "@aragon/sdk-client";
+} from "@bosagora/sdk-client";
 import { context } from "../index";
 
-// Instantiate the general purpose client from the Aragon OSx SDK context.
+// Instantiate the general purpose client from the BOSagora OSx SDK context.
 const client: Client = new Client(context);
 
 const depositParams: DepositParams = {

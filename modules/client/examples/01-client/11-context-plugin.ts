@@ -10,10 +10,10 @@ You don't need to use the `ContextPlugin` if you only want to interact general p
 However, whenever you want to interact with any plugin within our SDK, you will need to first instantiate the `ContextPlugin`. The `ContextPlugin` will give you access to the `Client`s for each of the plugins.
 */
 import { Wallet } from "@ethersproject/wallet";
-import { ContextPlugin } from "@aragon/sdk-client";
+import { ContextPlugin } from "@bosagora/sdk-client";
 import { context, contextParams } from "../index";
 
-// Instantiate the Context Plugin from the Aragon OSx SDK context.
+// Instantiate the Context Plugin from the BOSagora OSx SDK context.
 export const contextPlugin: ContextPlugin = ContextPlugin.fromContext(context);
 
 /* MARKDOWN

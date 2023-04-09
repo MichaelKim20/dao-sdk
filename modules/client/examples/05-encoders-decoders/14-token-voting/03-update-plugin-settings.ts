@@ -10,7 +10,7 @@ Updates the configuration of a given TokenVoting plugin for a DAO.
 ### Encoding
 */
 
-import { DaoAction, VotingMode, VotingSettings } from "@aragon/sdk-client";
+import { DaoAction, VotingMode, VotingSettings } from "@bosagora/sdk-client";
 import { tokenVotingClient } from "./index";
 
 // The new configuration parameters for the plugin

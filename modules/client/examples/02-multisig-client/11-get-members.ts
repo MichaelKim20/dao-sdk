@@ -8,7 +8,7 @@ title: Get Members
 Gets the list of addresses able to participate in a Multisig proposal for a given DAO that has the Multisig plugin installed.
 */
 
-import { ContextPlugin, MultisigClient } from "@aragon/sdk-client";
+import { ContextPlugin, MultisigClient } from "@bosagora/sdk-client";
 import { context } from "../index";
 
 // Instantiate a plugin context from the Aragon OSx SDK context.

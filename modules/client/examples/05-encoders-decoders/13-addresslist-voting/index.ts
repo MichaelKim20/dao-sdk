@@ -8,7 +8,7 @@ title: Addresslist Voting
 With an instance of the `AddresslistVotingClient`
 */
 
-import { AddresslistVotingClient, ContextPlugin } from "@aragon/sdk-client";
+import { AddresslistVotingClient, ContextPlugin } from "@bosagora/sdk-client";
 import { context } from "../../index";
 
 // Instantiate a plugin context from the Aragon OSx SDK context

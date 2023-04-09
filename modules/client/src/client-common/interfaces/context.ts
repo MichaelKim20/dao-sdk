@@ -2,7 +2,7 @@
 
 import { Signer } from "@ethersproject/abstract-signer";
 import { JsonRpcProvider, Networkish } from "@ethersproject/providers";
-import { Client as IpfsClient } from "@aragon/sdk-ipfs";
+import { Client as IpfsClient } from "@bosagora/sdk-ipfs";
 import { GraphQLClient } from "graphql-request";
 
 // Context input parameters

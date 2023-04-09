@@ -8,7 +8,7 @@ title: Check Execution
 Checks whether the signer of the transaction is able to execute actions approved and created by proposals from the Multisig plugin.
 */
 
-import { ContextPlugin, MultisigClient } from "@aragon/sdk-client";
+import { ContextPlugin, MultisigClient } from "@bosagora/sdk-client";
 import { context } from "../index";
 
 // Instantiate a plugin context from the Aragon OSx SDK context.

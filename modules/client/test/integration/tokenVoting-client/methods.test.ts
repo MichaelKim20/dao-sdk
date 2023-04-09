@@ -30,7 +30,7 @@ import * as deployContracts from "../../helpers/deployContracts";
 import {
   getExtendedProposalId,
   InvalidAddressOrEnsError,
-} from "@aragon/sdk-common";
+} from "@bosagora/sdk-common";
 import {
   ADDRESS_ONE,
   ADDRESS_THREE,

@@ -39,7 +39,7 @@ import {
   UpdateAllowanceParams,
   VotingMode,
 } from "../../../src";
-import { MissingExecPermissionError } from "@aragon/sdk-common";
+import { MissingExecPermissionError } from "@bosagora/sdk-common";
 import { Server } from "ganache";
 import {
   AssetBalanceSortBy,

@@ -1,4 +1,4 @@
-import { decodeRatio, getCompactProposalId, hexToBytes } from "@aragon/sdk-common";
+import { decodeRatio, getCompactProposalId, hexToBytes } from "@bosagora/sdk-common";
 import {
   computeProposalStatus,
   ContractVotingSettings,

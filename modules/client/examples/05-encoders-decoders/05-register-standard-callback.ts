@@ -14,10 +14,10 @@ import {
   Client,
   DaoAction,
   RegisterStandardCallbackParams,
-} from "@aragon/sdk-client";
+} from "@bosagora/sdk-client";
 import { context } from "../index";
 
-// Instantiates a general purpose Client from the Aragon OSx SDK context.
+// Instantiates a general purpose Client from the BOSagora OSx SDK context.
 const client: Client = new Client(context);
 
 const params = {

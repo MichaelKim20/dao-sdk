@@ -15,12 +15,12 @@ import {
   Client,
   DaoAction,
   DecodedApplyInstallationParams,
-} from "@aragon/sdk-client";
-import { hexToBytes } from "@aragon/sdk-common";
+} from "@bosagora/sdk-client";
+import { hexToBytes } from "@bosagora/sdk-common";
 import { context } from "../index";
 import { PermissionIds } from "../../dist/interfaces";
 
-// Instantiates an Aragon OSx SDK client.
+// Instantiates an BOSagora OSx SDK client.
 const client: Client = new Client(context);
 
 // This variable contains the values received on the prepareInstallation() method

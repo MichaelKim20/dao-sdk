@@ -20,14 +20,14 @@ import { AVAILABLE_FUNCTION_SIGNATURES } from "../constants";
 import {
   DAO__factory,
   PluginSetupProcessor__factory,
-} from "@aragon/osx-ethers";
+} from "@bosagora/osx-ethers";
 import {
   applyInstallatonParamsFromContract,
   permissionParamsFromContract,
   permissionParamsWitConditionFromContract,
   withdrawParamsFromContract,
 } from "../utils";
-import { bytesToHex, hexToBytes, resolveIpfsCid } from "@aragon/sdk-common";
+import { bytesToHex, hexToBytes, resolveIpfsCid } from "@bosagora/sdk-common";
 import { erc20ContractAbi } from "../abi/erc20";
 import { Contract } from "@ethersproject/contracts";
 import { AddressZero } from "@ethersproject/constants";

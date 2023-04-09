@@ -12,7 +12,7 @@ import {
   ContextPlugin,
   ExecuteProposalStep,
   MultisigClient,
-} from "@aragon/sdk-client";
+} from "@bosagora/sdk-client";
 import { context } from "../index";
 
 // Insantiate a plugin context from the Aragon OSx SDK context.

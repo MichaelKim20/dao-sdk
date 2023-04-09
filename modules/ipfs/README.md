@@ -1,28 +1,28 @@
-# Aragon JS SDK IPFS
+# BOSagora JS SDK IPFS
 
-@aragon/sdk-ifps provides a wrapper to send requests to an IPFS Cluster using
+@bosagora/sdk-ifps provides a wrapper to send requests to an IPFS Cluster using
 the IPFS API. It supports standard requests as well as streamed requests.
 
 # Installation
 
 Use [npm](https://www.npmjs.com/) or [yarn](https://yarnpkg.com/) to install
-@aragon/sdk-ipfs.
+@bosagora/sdk-ipfs.
 
 ```bash
-npm install @aragon/sdk-ipfs
-yarn add @aragon/sdk-ipfs
+npm install @bosagora/sdk-ipfs
+yarn add @bosagora/sdk-ipfs
 ```
 
 # Usage
 
 ## IPFS Client
 
-The Aragon infrastructure uses an IPFS cluster which requires authentication
+The BOSagora infrastructure uses an IPFS cluster which requires authentication
 based on an API key. The provided `Client` works as well on any canonical
 deployment by just not providing any API key in the headers.
 
 ```ts
-import { Client as IpfsClient } from "@aragon/sdk-ipfs";
+import { Client as IpfsClient } from "@bosagora/sdk-ipfs";
 
 const headers = {
   "X-API-KEY": "1234...",
@@ -135,7 +135,7 @@ console.log(pins);
 // ["QmeJ4kRW21RRgjywi9ydvY44kfx71x2WbRq7ik5xh5zBZK"]
 ```
 
-**Note:** Using IPFS pin on the Aragon IPFS cluster may be restricted. Use IPFS add instead.
+**Note:** Using IPFS pin on the BOSagora IPFS cluster may be restricted. Use IPFS add instead.
 
 ## IPFS unpin
 
@@ -150,7 +150,7 @@ console.log(pins);
 // ["QmeJ4kRW21RRgjywi9ydvY44kfx71x2WbRq7ik5xh5zBZK"]
 ```
 
-**Note:** Using IPFS unpin on the Aragon IPFS cluster may be restricted. 
+**Note:** Using IPFS unpin on the BOSagora IPFS cluster may be restricted. 
 
 # Testing
 

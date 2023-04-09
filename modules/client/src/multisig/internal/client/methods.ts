@@ -14,7 +14,7 @@ import {
   ProposalCreationError,
   resolveIpfsCid,
   UnsupportedNetworkError,
-} from "@aragon/sdk-common";
+} from "@bosagora/sdk-common";
 import { isAddress } from "@ethersproject/address";
 import {
   ApproveMultisigProposalParams,
@@ -61,7 +61,7 @@ import {
   Multisig__factory,
   PluginRepo__factory,
   PluginSetupProcessor__factory,
-} from "@aragon/osx-ethers";
+} from "@bosagora/osx-ethers";
 import {
   QueryMultisigProposal,
   QueryMultisigProposals,

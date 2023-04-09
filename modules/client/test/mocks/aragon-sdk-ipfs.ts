@@ -20,4 +20,4 @@ const mockedModuleStructure = {
 // mocking the inheritance chain to bypass instanceOf checks
 mockedIPFSClient.__proto__ = mockedModuleStructure.Client.prototype;
 
-jest.mock("@aragon/sdk-ipfs", () => mockedModuleStructure);
+jest.mock("@bosagora/sdk-ipfs", () => mockedModuleStructure);

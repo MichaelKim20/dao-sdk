@@ -1,4 +1,4 @@
-# Aragon JS SDK
+# BOSagora JS SDK
 
 This folder contains all the JS packages available on NPM:
 
@@ -28,9 +28,9 @@ Run `yarn build` to compile the individual packages. Run `yarn test` on them.
 To automatically publish the new version on pull request merge, the relevant labels:
 | Label Name | Component getting published | NPM package name |
 | --- | --- | --- |
-| client-release | `modules/client/` | `@aragon/sdk-client` |
-| ipfs-release | `modules/ipfs/` | `@aragon/sdk-ipfs` |
-| common-release | `modules/common/` | `@aragon/sdk-common` |
+| client-release | `modules/client/` | `@bosagora/sdk-client` |
+| ipfs-release | `modules/ipfs/` | `@bosagora/sdk-ipfs` |
+| common-release | `modules/common/` | `@bosagora/sdk-common` |
 
 ### With tags
 

@@ -8,10 +8,10 @@ title: Get Function Parameters
 Decodes the parameters of a function call.
 */
 
-import { Client } from "@aragon/sdk-client";
+import { Client } from "@bosagora/sdk-client";
 import { context } from "../index";
 
-// Instantiates an Aragon OSx SDK client.
+// Instantiates an BOSagora OSx SDK client.
 const client: Client = new Client(context);
 
 const data: Uint8Array = new Uint8Array([12, 56]);

@@ -20,10 +20,10 @@ import {
   GasFeeEstimation,
   IAddresslistVotingPluginInstall,
   VotingMode,
-} from "@aragon/sdk-client";
+} from "@bosagora/sdk-client";
 import { context } from "../index";
 
-// Instantiate a client from the Aragon OSx SDK context.
+// Instantiate a client from the BOSagora OSx SDK context.
 const client: Client = new Client(context);
 
 // Define the plugins to install and their params.

@@ -3,6 +3,9 @@ export const SupportedNetworksArray = [
   "goerli",
   "matic",
   "maticmum",
+  "bosagora",
+  "athens",
+  "localhost",
 ] as const;
 export type SupportedNetworks = typeof SupportedNetworksArray[number];
 export type NetworkDeployment = {

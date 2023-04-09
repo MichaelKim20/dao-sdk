@@ -5,7 +5,7 @@ title: Get DAOs
 
 ## Get Existing DAOs from the DAO Registry
 
-Gets a list of DAOs from the Aragon OSx DAO registry.
+Gets a list of DAOs from the BOSagora OSx DAO registry.
 */
 
 import {
@@ -14,10 +14,10 @@ import {
   DaoSortBy,
   IDaoQueryParams,
   SortDirection,
-} from "@aragon/sdk-client";
+} from "@bosagora/sdk-client";
 import { context } from "../index";
 
-// Instantiate the general purpose client from the Aragon OSx SDK context.
+// Instantiate the general purpose client from the BOSagora OSx SDK context.
 const client: Client = new Client(context);
 
 const queryParams: IDaoQueryParams = {
@@ -27,7 +27,7 @@ const queryParams: IDaoQueryParams = {
   sortBy: DaoSortBy.CREATED_AT, //optional, alternatively "SUBDOMAIN" (and "POPULARITY" coming soon)
 };
 
-// Get a list of DAOs from the Aragon DAO registry.
+// Get a list of DAOs from the BOSagora DAO registry.
 const daos: DaoListItem[] = await client.methods.getDaos(queryParams);
 console.log(daos);
 

@@ -1,4 +1,4 @@
-import { activeContractsList } from "@aragon/osx-ethers";
+import { activeContractsList } from "@bosagora/osx-ethers";
 import { NetworkDeployment, SupportedNetworks } from "./interfaces/common";
 import { ProposalMetadata } from "./interfaces/plugin";
 
@@ -68,12 +68,54 @@ export const LIVE_CONTRACTS: { [K in SupportedNetworks]: NetworkDeployment } = {
     multisigRepo: activeContractsList.polygon["multisig-repo"],
     adminRepo: activeContractsList.polygon["admin-repo"],
     addresslistVotingRepo:
-      activeContractsList.polygon["address-list-voting-repo"],
+        activeContractsList.polygon["address-list-voting-repo"],
     tokenVotingRepo: activeContractsList.polygon["token-voting-repo"],
     multisigSetup: activeContractsList.polygon.MultisigSetup,
     adminSetup: activeContractsList.polygon.AdminSetup,
     addresslistVotingSetup: activeContractsList.polygon.AddresslistVotingSetup,
     tokenVotingSetup: activeContractsList.polygon.TokenVotingSetup,
     ensRegistry: activeContractsList.polygon.ENSRegistry,
+  },
+  bosagora: {
+    daoFactory: activeContractsList.bosagora.DAOFactory,
+    pluginSetupProcessor: activeContractsList.bosagora.PluginSetupProcessor,
+    multisigRepo: activeContractsList.bosagora["multisig-repo"],
+    adminRepo: activeContractsList.bosagora["admin-repo"],
+    addresslistVotingRepo:
+        activeContractsList.bosagora["address-list-voting-repo"],
+    tokenVotingRepo: activeContractsList.bosagora["token-voting-repo"],
+    multisigSetup: activeContractsList.bosagora.MultisigSetup,
+    adminSetup: activeContractsList.bosagora.AdminSetup,
+    addresslistVotingSetup: activeContractsList.bosagora.AddresslistVotingSetup,
+    tokenVotingSetup: activeContractsList.bosagora.TokenVotingSetup,
+    ensRegistry: activeContractsList.bosagora.ENSRegistry,
+  },
+  athens: {
+    daoFactory: activeContractsList.athens.DAOFactory,
+    pluginSetupProcessor: activeContractsList.athens.PluginSetupProcessor,
+    multisigRepo: activeContractsList.athens["multisig-repo"],
+    adminRepo: activeContractsList.athens["admin-repo"],
+    addresslistVotingRepo:
+        activeContractsList.athens["address-list-voting-repo"],
+    tokenVotingRepo: activeContractsList.athens["token-voting-repo"],
+    multisigSetup: activeContractsList.athens.MultisigSetup,
+    adminSetup: activeContractsList.athens.AdminSetup,
+    addresslistVotingSetup: activeContractsList.athens.AddresslistVotingSetup,
+    tokenVotingSetup: activeContractsList.athens.TokenVotingSetup,
+    ensRegistry: activeContractsList.athens.ENSRegistry,
+  },
+  localhost: {
+    daoFactory: activeContractsList.localhost.DAOFactory,
+    pluginSetupProcessor: activeContractsList.localhost.PluginSetupProcessor,
+    multisigRepo: activeContractsList.localhost["multisig-repo"],
+    adminRepo: activeContractsList.localhost["admin-repo"],
+    addresslistVotingRepo:
+        activeContractsList.localhost["address-list-voting-repo"],
+    tokenVotingRepo: activeContractsList.localhost["token-voting-repo"],
+    multisigSetup: activeContractsList.localhost.MultisigSetup,
+    adminSetup: activeContractsList.localhost.AdminSetup,
+    addresslistVotingSetup: activeContractsList.localhost.AddresslistVotingSetup,
+    tokenVotingSetup: activeContractsList.localhost.TokenVotingSetup,
+    ensRegistry: activeContractsList.localhost.ENSRegistry,
   },
 };

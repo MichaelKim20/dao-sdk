@@ -1,7 +1,7 @@
 import {
   AddresslistVoting__factory,
   MajorityVotingBase__factory,
-} from "@aragon/osx-ethers";
+} from "@bosagora/osx-ethers";
 
 export const AVAILABLE_FUNCTION_SIGNATURES: string[] = [
   MajorityVotingBase__factory.createInterface().getFunction(

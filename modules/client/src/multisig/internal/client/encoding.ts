@@ -2,7 +2,7 @@ import {
   hexToBytes,
   InvalidAddressError,
   UnsupportedNetworkError,
-} from "@aragon/sdk-common";
+} from "@bosagora/sdk-common";
 import { isAddress } from "@ethersproject/address";
 import {
   ClientCore,
@@ -21,7 +21,7 @@ import {
 } from "../../interfaces";
 // @ts-ignore
 // todo fix new contracts-ethers
-import { Multisig__factory } from "@aragon/osx-ethers";
+import { Multisig__factory } from "@bosagora/osx-ethers";
 import { defaultAbiCoder } from "@ethersproject/abi";
 import { LIVE_CONTRACTS } from "../../../client-common/constants";
 import { getNetwork, Networkish } from "@ethersproject/providers";

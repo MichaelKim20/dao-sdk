@@ -1,9 +1,9 @@
 {
-  "name": "@aragon/sdk",
+  "name": "@bosagora/sdk",
   "version": "0.1.0",
-  "description": "Aragon JS SDK",
-  "repository": "https://github.com/aragon/sdk/tree/main",
-  "author": "Aragon Association",
+  "description": "BOSagora JS SDK",
+  "repository": "https://github.com/bosagora/dao-sdk/tree/main",
+  "author": "BOSagora Foundation",
   "license": "MIT",
   "private": true,
   "workspaces": {

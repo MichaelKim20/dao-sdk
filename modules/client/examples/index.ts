@@ -3,11 +3,11 @@
 title: Getting Started
 ---
 
-## Getting Started With the Aragon SDK
+## Getting Started With the BOSagora SDK
 
 ### Before You Begin
 
-The Aragon OSx SDK is Javascript agnostic, which means you can use it with any Javascript framework, including popular ones like React, Vite, or Vue.
+The BOSagora OSx SDK is Javascript agnostic, which means you can use it with any Javascript framework, including popular ones like React, Vite, or Vue.
 
 However, keep in mind that because server-side rendering is not supported yet for some crypto packages, you will not be able to use a framework like NextJS. Only frameworks that run entirely on client-side are supported.
 
@@ -15,25 +15,25 @@ Also know that all documentation within this site is done with Typescript. You c
 
 ### Installing the SDK
 
-First thing you want to do is install the Aragon OSx SDK package into your product. You can do this by using `npm` or `yarn`.
+First thing you want to do is install the BOSagora OSx SDK package into your product. You can do this by using `npm` or `yarn`.
 
 ```bash
-npm install @aragon/sdk-client
+npm install @bosagora/sdk-client
 ```
 or
 ```bash
-yarn add @aragon/sdk-client
+yarn add @bosagora/sdk-client
 ```
 
 ### Setting up the Context
 
-Then, you'll want to set up the Aragon OSx SDK context within your application to have access to the SDK functions. You can do this at any point within your app.
+Then, you'll want to set up the BOSagora OSx SDK context within your application to have access to the SDK functions. You can do this at any point within your app.
 
 However, so you're not setting it up multiple times, we recommend you set it up as a [context hook](https://www.freecodecamp.org/news/react-context-for-beginners/) within Javascript application if you're using a framework like React, Vue, or other, or within the entry file of your app.
 */
 
 import { Wallet } from "@ethersproject/wallet";
-import { Context, ContextParams } from "@aragon/sdk-client";
+import { Context, ContextParams } from "@bosagora/sdk-client";
 
 // Set up your IPFS API key. You can get one either by running a local node or by using a service like Infura or Alechmy.
 // Make sure to always keep these private in a file that is not committed to your public repository.
@@ -55,7 +55,7 @@ export const contextParams: ContextParams = {
       headers: { "X-API-KEY": IPFS_API_KEY || "" },
     },
   ],
-  // Don't change this line. This is how we connect your app to the Aragon subgraph.
+  // Don't change this line. This is how we connect your app to the BOSagora subgraph.
   graphqlNodes: [
     {
       url: "https://subgraph.satsuma-prod.com/aragon/core-goerli/api",
@@ -63,7 +63,7 @@ export const contextParams: ContextParams = {
   ],
 };
 
-// Instantiate the Aragon SDK context
+// Instantiate the BOSagora SDK context
 export const context: Context = new Context(contextParams);
 
 /* MARKDOWN

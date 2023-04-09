@@ -8,7 +8,7 @@ title: Get Members
 Returns an array with the addresses of all the members of a specific DAO which has the TokenVoting plugin installed.
 */
 
-import { ContextPlugin, TokenVotingClient } from "@aragon/sdk-client";
+import { ContextPlugin, TokenVotingClient } from "@bosagora/sdk-client";
 import { context } from "../index";
 
 // Instantiate a plugin context from the Aragon OSx SDK context.

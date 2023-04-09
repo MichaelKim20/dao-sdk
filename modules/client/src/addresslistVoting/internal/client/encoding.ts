@@ -2,7 +2,7 @@ import {
   hexToBytes,
   InvalidAddressError,
   UnsupportedNetworkError,
-} from "@aragon/sdk-common";
+} from "@bosagora/sdk-common";
 import { isAddress } from "@ethersproject/address";
 import {
   ClientCore,
@@ -19,7 +19,7 @@ import {
   IAddresslistVotingClientEncoding,
   IAddresslistVotingPluginInstall,
 } from "../../interfaces";
-import { AddresslistVoting__factory } from "@aragon/osx-ethers";
+import { AddresslistVoting__factory } from "@bosagora/osx-ethers";
 import { defaultAbiCoder } from "@ethersproject/abi";
 import { LIVE_CONTRACTS } from "../../../client-common/constants";
 import { getNetwork, Networkish } from "@ethersproject/providers";

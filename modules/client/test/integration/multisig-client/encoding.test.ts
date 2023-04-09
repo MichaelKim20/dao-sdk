@@ -9,7 +9,7 @@ import {
   MultisigPluginInstallParams,
   RemoveAddressesParams,
 } from "../../../src";
-import { bytesToHex, InvalidAddressError } from "@aragon/sdk-common";
+import { bytesToHex, InvalidAddressError } from "@bosagora/sdk-common";
 import { contextParamsLocalChain, TEST_INVALID_ADDRESS } from "../constants";
 
 describe("Client Multisig", () => {

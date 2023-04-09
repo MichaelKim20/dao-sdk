@@ -17,12 +17,12 @@ import {
   ProposalMetadata,
   VoteValues,
   VotingMode,
-} from "@aragon/sdk-client";
+} from "@bosagora/sdk-client";
 import { context } from "../index";
 
-// Create a plugin context from the Aragon OSx SDK context.
+// Create a plugin context from the BOSagora OSx SDK context.
 const contextPlugin: ContextPlugin = ContextPlugin.fromContext(context);
-// Create an AddresslistVoting client from the Aragon OSx SDK context.
+// Create an AddresslistVoting client from the BOSagora OSx SDK context.
 const addresslistVotingClient: AddresslistVotingClient =
   new AddresslistVotingClient(contextPlugin);
 

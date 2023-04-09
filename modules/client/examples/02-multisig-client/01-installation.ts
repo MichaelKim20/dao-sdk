@@ -18,7 +18,7 @@ import {
   GasFeeEstimation,
   MultisigClient,
   MultisigPluginInstallParams,
-} from "@aragon/sdk-client";
+} from "@bosagora/sdk-client";
 import { context } from "../index";
 
 // Instantiate a client from the Aragon OSx SDK context.

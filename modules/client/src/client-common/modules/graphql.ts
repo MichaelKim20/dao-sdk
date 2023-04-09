@@ -3,7 +3,7 @@ import {
   GraphQLError,
   NoNodesAvailableError,
   runAndRetry,
-} from "@aragon/sdk-common";
+} from "@bosagora/sdk-common";
 import { ClientError, GraphQLClient } from "graphql-request";
 import { Context } from "../../client-common/context";
 import { QueryStatus } from "../graphql-queries";

@@ -5,7 +5,7 @@ import {
   DAORegistry__factory,
   PluginRepo__factory,
   PluginSetupProcessor__factory,
-} from "@aragon/osx-ethers";
+} from "@bosagora/osx-ethers";
 import {
   AmountMismatchError,
   FailedDepositError,
@@ -17,7 +17,7 @@ import {
   NoSignerError,
   resolveIpfsCid,
   UpdateAllowanceError,
-} from "@aragon/sdk-common";
+} from "@bosagora/sdk-common";
 import { BigNumber } from "@ethersproject/bignumber";
 import { AddressZero } from "@ethersproject/constants";
 import { Contract, ContractTransaction } from "@ethersproject/contracts";

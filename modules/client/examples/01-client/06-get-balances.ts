@@ -8,10 +8,10 @@ title: DAO Balance
 Gets a DAO's financial assets based on the DAO address or its ENS domain.
 */
 
-import { AssetBalance, Client } from "@aragon/sdk-client";
+import { AssetBalance, Client } from "@bosagora/sdk-client";
 import { context } from "../index";
 
-// Instantiate the general purpose client from the Aragon OSx SDK context.
+// Instantiate the general purpose client from the BOSagora OSx SDK context.
 const client: Client = new Client(context);
 
 // Address of the DAO whose asset balances you want to retrieve.

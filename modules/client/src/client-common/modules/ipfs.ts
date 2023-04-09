@@ -4,14 +4,14 @@ import {
   Client as IpfsClient,
   ClientError,
   PinResponse,
-} from "@aragon/sdk-ipfs";
+} from "@bosagora/sdk-ipfs";
 import {
   ClientNotInitializedError,
   IpfsError,
   NoNodesAvailableError,
   runAndRetry,
-} from "@aragon/sdk-common";
-import { DataDecodingError } from "@aragon/sdk-common";
+} from "@bosagora/sdk-common";
+import { DataDecodingError } from "@bosagora/sdk-common";
 
 export class IPFSModule implements IClientIpfsCore {
   private clientIdx: number = -1;

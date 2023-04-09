@@ -6,7 +6,7 @@ import { mockedIPFSClient } from "../../mocks/aragon-sdk-ipfs";
 
 import { JsonRpcProvider } from "@ethersproject/providers";
 import { Wallet } from "@ethersproject/wallet";
-import { Client as IpfsClient } from "@aragon/sdk-ipfs";
+import { Client as IpfsClient } from "@bosagora/sdk-ipfs";
 import { GraphQLClient } from "graphql-request";
 import { contextParamsMainnet, contextParamsFailing } from "../constants";
 import { TokenVotingClient, Context, ContextPlugin } from "../../../src";

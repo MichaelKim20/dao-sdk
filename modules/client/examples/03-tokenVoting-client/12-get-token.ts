@@ -9,7 +9,7 @@ Returns the token details used in the TokenVoting plugin for a given DAO.
 These are the details of the token used to vote in that specific DAO.
 */
 
-import { ContextPlugin, TokenVotingClient } from "@aragon/sdk-client";
+import { ContextPlugin, TokenVotingClient } from "@bosagora/sdk-client";
 import { context } from "../index";
 
 // Instantiate a plugin context from the Aragon OSx SDK context.

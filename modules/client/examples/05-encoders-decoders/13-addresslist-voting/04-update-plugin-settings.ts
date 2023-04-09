@@ -10,7 +10,7 @@ Updates the settings of a given AddresslistVoting plugin.
 ### Encoding
 */
 
-import { DaoAction, VotingMode, VotingSettings } from "@aragon/sdk-client";
+import { DaoAction, VotingMode, VotingSettings } from "@bosagora/sdk-client";
 import { addresslistVotingClient } from "./index";
 
 // The action object for updating the plugin settings.

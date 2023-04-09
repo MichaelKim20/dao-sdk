@@ -1,4 +1,4 @@
-import { IDAO } from "@aragon/osx-ethers";
+import { IDAO } from "@bosagora/osx-ethers";
 import { ContractReceipt } from "@ethersproject/contracts";
 import { VoteValues, VotingMode } from "../client-common/interfaces/plugin";
 import {
@@ -10,7 +10,7 @@ import {
 import { Interface } from "@ethersproject/abi";
 import { id } from "@ethersproject/hash";
 import { Log } from "@ethersproject/providers";
-import { InvalidVotingModeError } from "@aragon/sdk-common";
+import { InvalidVotingModeError } from "@bosagora/sdk-common";
 
 export function unwrapProposalParams(
   params: CreateMajorityVotingProposalParams,

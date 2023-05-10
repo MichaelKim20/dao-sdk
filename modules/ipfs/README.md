@@ -1,16 +1,16 @@
 # Aragon JS SDK IPFS
 
-@aragon/sdk-ifps provides a wrapper to send requests to an IPFS Cluster using
+@bosagora/sdk-ifps provides a wrapper to send requests to an IPFS Cluster using
 the IPFS API. It supports standard requests as well as streamed requests.
 
 # Installation
 
 Use [npm](https://www.npmjs.com/) or [yarn](https://yarnpkg.com/) to install
-@aragon/sdk-ipfs.
+@bosagora/sdk-ipfs.
 
 ```bash
-npm install @aragon/sdk-ipfs
-yarn add @aragon/sdk-ipfs
+npm install @bosagora/sdk-ipfs
+yarn add @bosagora/sdk-ipfs
 ```
 
 # Usage
@@ -22,7 +22,7 @@ based on an API key. The provided `Client` works as well on any canonical
 deployment by just not providing any API key in the headers.
 
 ```ts
-import { Client as IpfsClient } from "@aragon/sdk-ipfs";
+import { Client as IpfsClient } from "@bosagora/sdk-ipfs";
 
 const headers = {
   "X-API-KEY": "1234...",

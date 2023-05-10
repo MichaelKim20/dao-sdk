@@ -18,7 +18,7 @@ import { isAddress } from "@ethersproject/address";
 import {
   DAO__factory,
   PluginSetupProcessor__factory,
-} from "@aragon/osx-ethers";
+} from "@bosagora/osx-ethers";
 import {
   applyInstallatonParamsToContract,
   permissionParamsToContract,
@@ -30,7 +30,7 @@ import {
   hexToBytes,
   InvalidAddressError,
   NoSignerError,
-} from "@aragon/sdk-common";
+} from "@bosagora/sdk-common";
 import { toUtf8Bytes } from "@ethersproject/strings";
 
 /**

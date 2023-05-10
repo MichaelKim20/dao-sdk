@@ -5,7 +5,7 @@ import {
   DAORegistry__factory,
   PluginRepo__factory,
   PluginSetupProcessor__factory,
-} from "@aragon/osx-ethers";
+} from "@bosagora/osx-ethers";
 import {
   AmountMismatchError,
   FailedDepositError,
@@ -17,7 +17,7 @@ import {
   NoSignerError,
   resolveIpfsCid,
   UpdateAllowanceError,
-} from "@aragon/sdk-common";
+} from "@bosagora/sdk-common";
 import { BigNumber } from "@ethersproject/bignumber";
 import { AddressZero } from "@ethersproject/constants";
 import { Contract, ContractTransaction } from "@ethersproject/contracts";
@@ -422,6 +422,8 @@ export class ClientMethods extends ClientCore implements IClientMethods {
         EMPTY_DAO_METADATA_LINK,
       );
     }
+    // TODO use same approach as in graphql
+    await this.ipfs.ensureOnline();
     try {
       const metadataCid = resolveIpfsCid(dao.metadata);
       const metadataString = await this.ipfs.fetchString(metadataCid);
@@ -462,6 +464,8 @@ export class ClientMethods extends ClientCore implements IClientMethods {
     const name = "DAOs";
     type T = { daos: SubgraphDaoListItem[] };
     const { daos } = await this.graphql.request<T>({ query, params, name });
+    // TODO use same approach as in graphql
+    await this.ipfs.ensureOnline();
     return Promise.all(
       daos.map(
         async (dao: SubgraphDaoListItem): Promise<DaoListItem> => {

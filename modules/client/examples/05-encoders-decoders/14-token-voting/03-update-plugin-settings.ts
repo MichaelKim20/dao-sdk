@@ -14,7 +14,7 @@ import {
   DaoAction,
   VotingMode,
   VotingSettings
-} from "@aragon/sdk-client";
+} from "@bosagora/sdk-client";
 import { tokenVotingClient } from "./index";
 
 // The new configuration parameters for the plugin

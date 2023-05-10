@@ -1,4 +1,4 @@
-import { bytesToHex } from "@aragon/sdk-common";
+import { bytesToHex } from "@bosagora/sdk-common";
 import {
   ClientCore,
   ContextPlugin,
@@ -12,7 +12,7 @@ import {
 } from "../../interfaces";
 // @ts-ignore
 // todo fix new contracts-ethers
-import { Multisig__factory } from "@aragon/osx-ethers";
+import { Multisig__factory } from "@bosagora/osx-ethers";
 
 /**
  * Decoding module for the SDK AddressList Client

@@ -14,7 +14,7 @@ import {
   DaoAction,
   VotingMode,
   VotingSettings
-} from "@aragon/sdk-client";
+} from "@bosagora/sdk-client";
 import { addresslistVotingClient } from "./index";
 
 // The action object for updating the plugin settings.

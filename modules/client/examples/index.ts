@@ -18,11 +18,11 @@ Also know that all documentation within this site is done with Typescript. You c
 First thing you want to do is install the Aragon OSx SDK package into your product. You can do this by using `npm` or `yarn`.
 
 ```bash
-npm install @aragon/sdk-client
+npm install @bosagora/sdk-client
 ```
 or
 ```bash
-yarn add @aragon/sdk-client
+yarn add @bosagora/sdk-client
 ```
 
 ### Setting up the Context
@@ -33,7 +33,7 @@ However, so you're not setting it up multiple times, we recommend you set it up 
 */
 
 import { Wallet } from "@ethersproject/wallet";
-import { Context, ContextParams } from "@aragon/sdk-client";
+import { Context, ContextParams } from "@bosagora/sdk-client";
 
 // Set up your IPFS API key. You can get one either by running a local node or by using a service like Infura or Alechmy.
 // Make sure to always keep these private in a file that is not committed to your public repository.

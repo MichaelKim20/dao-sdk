@@ -1,4 +1,4 @@
-import { bytesToHex } from "@aragon/sdk-common";
+import { bytesToHex } from "@bosagora/sdk-common";
 import {
   ClientCore,
   ContextPlugin,
@@ -9,7 +9,7 @@ import {
 } from "../../../client-common";
 import { AVAILABLE_FUNCTION_SIGNATURES } from "../constants";
 import { IAddresslistVotingClientDecoding } from "../../interfaces";
-import { AddresslistVoting__factory } from "@aragon/osx-ethers";
+import { AddresslistVoting__factory } from "@bosagora/osx-ethers";
 
 /**
  * Decoding module for the SDK AddressList Client

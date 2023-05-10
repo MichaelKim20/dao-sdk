@@ -1,7 +1,7 @@
 // @ts-ignore
 declare const describe, it, expect;
 
-import { bytesToHex } from "@aragon/sdk-common";
+import { bytesToHex } from "@bosagora/sdk-common";
 import {
   Context,
   ContextPlugin,

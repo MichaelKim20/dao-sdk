@@ -19,7 +19,7 @@ If this is not done correctly the transaction may fail and in the worst case bri
 import {
   DaoAction,
   RemoveAddressesParams
-} from "@aragon/sdk-client";
+} from "@bosagora/sdk-client";
 import { multisigClient } from "./index";
 
 // List of members to remove from the multisig plugin.

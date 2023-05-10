@@ -23,7 +23,7 @@ import {
   ProposalSortBy,
   SortDirection,
 } from "../../../src";
-import { GraphQLError, InvalidAddressOrEnsError } from "@aragon/sdk-common";
+import { GraphQLError, InvalidAddressOrEnsError } from "@bosagora/sdk-common";
 import {
   contextParamsLocalChain,
   contextParamsOkWithGraphqlTimeouts,

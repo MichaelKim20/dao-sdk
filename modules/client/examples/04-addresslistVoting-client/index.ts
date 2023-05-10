@@ -8,7 +8,7 @@ title: Addresslist Voting Client
 Creates an AddresslistVoting client allowing you to access the AddresslistVoting plugin functionality.
 */
 
-import { AddresslistVotingClient, ContextPlugin } from "@aragon/sdk-client";
+import { AddresslistVotingClient, ContextPlugin } from "@bosagora/sdk-client";
 import { context } from "../index";
 
 // Instantiate a plugin context from the Aragon OSx SDK context.

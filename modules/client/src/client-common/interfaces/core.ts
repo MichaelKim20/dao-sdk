@@ -3,7 +3,7 @@
 import { Signer } from "@ethersproject/abstract-signer";
 import { Contract, ContractInterface } from "@ethersproject/contracts";
 import { JsonRpcProvider } from "@ethersproject/providers";
-import { Client as IpfsClient, PinResponse } from "@aragon/sdk-ipfs";
+import { Client as IpfsClient, PinResponse } from "@bosagora/sdk-ipfs";
 import { GasFeeEstimation } from "./common";
 import { GraphQLClient } from "graphql-request";
 

@@ -11,8 +11,8 @@ Encodes the action of applying a plugin installation.
 */
 
 
-import { Client, DaoAction, ApplyInstallationParams, DecodedApplyInstallationParams } from "@aragon/sdk-client";
-import { hexToBytes } from "@aragon/sdk-common";
+import { Client, DaoAction, ApplyInstallationParams, DecodedApplyInstallationParams } from "@bosagora/sdk-client";
+import { hexToBytes } from "@bosagora/sdk-common";
 import { context } from "../index";
 import { PermissionIds } from "../../dist/interfaces";
 

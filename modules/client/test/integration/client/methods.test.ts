@@ -36,7 +36,7 @@ import {
   TransferType,
   VotingMode,
 } from "../../../src";
-import { MissingExecPermissionError } from "@aragon/sdk-common";
+import { MissingExecPermissionError } from "@bosagora/sdk-common";
 import { ContractFactory } from "@ethersproject/contracts";
 import { erc20ContractAbi } from "../../../src/internal/abi/erc20";
 import { isAddress } from "@ethersproject/address";

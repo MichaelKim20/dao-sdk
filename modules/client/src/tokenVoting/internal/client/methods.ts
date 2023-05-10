@@ -17,7 +17,7 @@ import {
   ProposalCreationError,
   resolveIpfsCid,
   UnsupportedNetworkError,
-} from "@aragon/sdk-common";
+} from "@bosagora/sdk-common";
 import {
   CanVoteParams,
   ClientCore,
@@ -70,7 +70,7 @@ import {
   PluginRepo__factory,
   PluginSetupProcessor__factory,
   TokenVoting__factory,
-} from "@aragon/osx-ethers";
+} from "@bosagora/osx-ethers";
 import { toUtf8Bytes } from "@ethersproject/strings";
 import {
   EMPTY_PROPOSAL_METADATA_LINK,
@@ -306,7 +306,7 @@ export class TokenVotingClientMethods extends ClientCore
       {
         pluginSetupRef: {
           pluginSetupRepo: LIVE_CONTRACTS[networkName].tokenVotingRepo,
-          versionTag: versionTag!,
+          versionTag: versionTag!
         },
         data: tokenVotingPluginInstallItem.data,
       },
@@ -529,6 +529,7 @@ export class TokenVotingClientMethods extends ClientCore
       params,
       name,
     });
+    await this.ipfs.ensureOnline();
     return Promise.all(
       tokenVotingProposals.map(
         async (

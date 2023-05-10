@@ -13,7 +13,7 @@ import {
   CanVoteParams,
   TokenVotingClient,
   VoteValues
-} from "@aragon/sdk-client";
+} from "@bosagora/sdk-client";
 import { context } from "../index";
 
 // Instantiate a plugin context from the Aragon OSx SDK context.

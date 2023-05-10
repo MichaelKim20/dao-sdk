@@ -26,7 +26,7 @@ import {
   TokenType,
   UpgradeToAndCallParams,
 } from "../../../src/interfaces";
-import { bytesToHex, hexToBytes } from "@aragon/sdk-common";
+import { bytesToHex, hexToBytes } from "@bosagora/sdk-common";
 import { defaultAbiCoder } from "@ethersproject/abi";
 
 describe("Client", () => {

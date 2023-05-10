@@ -11,7 +11,7 @@ With an instance of the `AddresslistVotingClient`
 import {
   ContextPlugin,
   AddresslistVotingClient
-} from "@aragon/sdk-client";
+} from "@bosagora/sdk-client";
 import { context } from "../../index";
 
 // Instantiate a plugin context from the Aragon OSx SDK context

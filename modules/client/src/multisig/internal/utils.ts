@@ -1,4 +1,4 @@
-import { getCompactProposalId, hexToBytes } from "@aragon/sdk-common";
+import { getCompactProposalId, hexToBytes } from "@bosagora/sdk-common";
 import {
   computeProposalStatus,
   DaoAction,

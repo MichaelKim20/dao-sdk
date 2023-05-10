@@ -9,7 +9,7 @@ import {
   NoDaoFactory,
   NoPluginRepoRegistry,
   NoDaoRegistry,
-} from "@aragon/sdk-common";
+} from "@bosagora/sdk-common";
 
 const daoFactoryAddressMap = new Map<Web3Module, string>();
 const daoRegistryAddressMap = new Map<Web3Module, string>();

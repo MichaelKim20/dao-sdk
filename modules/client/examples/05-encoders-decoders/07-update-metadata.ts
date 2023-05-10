@@ -10,7 +10,7 @@ Updates the metadata of a given DAO.
 ### Encoding
 */
 
-import { Client, DaoAction, DaoMetadata } from "@aragon/sdk-client";
+import { Client, DaoAction, DaoMetadata } from "@bosagora/sdk-client";
 import { context } from "../index";
 
 // Instantiates an Aragon OSx SDK client.

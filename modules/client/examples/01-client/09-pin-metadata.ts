@@ -9,7 +9,7 @@ Adds a pin data set into the specified IPFS nodes.
 Return an IPFS CID preceded by "ipfs://".
 */
 
-import { Client, DaoMetadata } from "@aragon/sdk-client";
+import { Client, DaoMetadata } from "@bosagora/sdk-client";
 import { context } from "../index";
 
 // Instantiate the general purpose client from the Aragon OSx SDK context.

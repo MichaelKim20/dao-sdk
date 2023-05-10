@@ -17,7 +17,7 @@ import {
   ProposalMetadata,
   TokenType,
   WithdrawParams
-} from "@aragon/sdk-client";
+} from "@bosagora/sdk-client";
 import { context } from "../index";
 
 // Instantiate an Aragon OSx SDK client.

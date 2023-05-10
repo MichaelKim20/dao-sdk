@@ -17,7 +17,7 @@ import {
   ProposalMetadata,
   VotingMode,
   VoteValues
-} from "@aragon/sdk-client";
+} from "@bosagora/sdk-client";
 import { context } from "../index";
 
 // Create a plugin context from the Aragon OSx SDK context.

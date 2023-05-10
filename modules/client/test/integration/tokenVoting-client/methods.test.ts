@@ -24,7 +24,7 @@ import {
 import * as ganacheSetup from "../../helpers/ganache-setup";
 import * as deployContracts from "../../helpers/deployContracts";
 
-import { InvalidAddressOrEnsError } from "@aragon/sdk-common";
+import { InvalidAddressOrEnsError } from "@bosagora/sdk-common";
 import {
   contextParamsLocalChain,
   contextParamsOkWithGraphqlTimeouts,

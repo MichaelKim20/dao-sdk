@@ -23,7 +23,7 @@ TEMPLATE:
 - Add support for polygon.
 
 ### Changed
-- Updates `@aragon/osx-ethers` to v1.2.1.
+- Updates `@bosagora/osx-ethers` to v1.2.1.
 - Reverts the encoding of `addAddresses` and `removeAddresses` in the multisig plugin to return only one action
 
 ## [1.2.0]
@@ -31,7 +31,7 @@ TEMPLATE:
 - Add support for mumbai.
 
 ### Changed
-- Updates `@aragon/osx-ethers` to v1.2.0.
+- Updates `@bosagora/osx-ethers` to v1.2.0.
 
 ## [1.1.0]
 ### Added
@@ -91,7 +91,7 @@ Release candidate 1
 
 ### Removed
 - removes `IExecuteProposalParams`, `CanExecuteParams` and `ExecuteProposalParams` types/interfaces
-- removes `isProposalId()` and moves it to @aragon/sdk-common
+- removes `isProposalId()` and moves it to @bosagora/sdk-common
 
 ## [0.21.2-beta]
 ### Fixed
@@ -248,7 +248,7 @@ On 2022-11-22 16:45:52
 - Automatic generated README from examples
 - Split clients into modules
 - Removed `javascript` folders
-- Updates `@aragon/core-contracts-ethers` to `v0.4.1-alpha`
+- Updates `@bosagora/core-contracts-ethers` to `v0.4.1-alpha`
 - Parameters types for DAO creation
 - Make `tokenAdresses` optional on `getBalances`
 ### Added
@@ -409,12 +409,12 @@ On 2022-06-14 15:03:15
 ## [0.0.13-alpha] - Tue May 24 09:26:45 UTC 2022  
 
 ### Added
-- Getting `DAOFactory` address from `@aragon/core-contracts-ethers` package depending on the selected network in `Context`.
+- Getting `DAOFactory` address from `@bosagora/core-contracts-ethers` package depending on the selected network in `Context`.
   
 ## [0.0.12-alpha] - Mon May 23 11:17:16 UTC 2022  
 
 ### Changed
-- Upgraded `@aragon/core-contracts-ethers` package to the `0.2.1-alpha` version and adapted the base code to accept the new `VoteConfigStruct` struct.
+- Upgraded `@bosagora/core-contracts-ethers` package to the `0.2.1-alpha` version and adapted the base code to accept the new `VoteConfigStruct` struct.
 
 ## [0.0.11-alpha] - Wed May 18 14:51:02 UTC 2022  
   
@@ -463,7 +463,7 @@ On 2022-06-14 15:03:15
 ## [0.0.2-alpha] - 2022-04-06
 
 ### Fixed
-- Fixed `@aragon/sdk-common` dependency.
+- Fixed `@bosagora/sdk-common` dependency.
 
 ## [0.0.1-alpha] - 2022-04-02
 

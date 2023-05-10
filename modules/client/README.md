@@ -1,6 +1,6 @@
 # Aragon JS SDK Client
 
-`@aragon/sdk-client` provides easy access to the high level interactions to be
+`@bosagora/sdk-client` provides easy access to the high level interactions to be
 made with an Aragon DAO. It consists of three different components:
 
 - General-purpose DAO client
@@ -12,11 +12,11 @@ Contributors: See [development](#development) below
 # Installation
 
 Use [npm](https://www.npmjs.com/) or [yarn](https://yarnpkg.com/) to install
-@aragon/sdk-client.
+@bosagora/sdk-client.
 
 ```bash
-npm install @aragon/sdk-client
-yarn add @aragon/sdk-client
+npm install @bosagora/sdk-client
+yarn add @bosagora/sdk-client
 ```
 
 # Usage
@@ -25,14 +25,14 @@ The SDK usage is demonstrated in the [SDK examples section of the Developer Port
 
 ## React Native
 In order for the SDK to be used in restricted environments like react native install the following polyfilesand  into your project:  
--  [@ethersproject/shims](https://www.npmjs.com/package/@ethersproject/shims)
+-  [@bosagora/shims](https://www.npmjs.com/package/@bosagora/shims)
 -  [react-native-url-polyfill](https://www.npmjs.com/package/react-native-url-polyfill)
 
 Then import them like the following **before** you import the Aragon SDK package:  
 ```javascript
-import "@ethersproject/shims";
+import "@bosagora/shims";
 import "react-native-url-polyfill/auto";
-import { Client } from "@aragon/sdk-client";
+import { Client } from "@bosagora/sdk-client";
 ```
 
 # Development

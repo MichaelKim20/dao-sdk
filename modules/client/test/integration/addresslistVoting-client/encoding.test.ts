@@ -8,7 +8,7 @@ import {
   IAddresslistVotingPluginInstall,
   VotingSettings,
 } from "../../../src";
-import { bytesToHex, InvalidAddressError } from "@aragon/sdk-common";
+import { bytesToHex, InvalidAddressError } from "@bosagora/sdk-common";
 import { contextParamsLocalChain } from "../constants";
 describe("Client Address List", () => {
   describe("Action generators", () => {

@@ -1,4 +1,4 @@
-import { bytesToHex } from "@aragon/sdk-common";
+import { bytesToHex } from "@bosagora/sdk-common";
 import {
   ClientCore,
   ContextPlugin,
@@ -9,7 +9,7 @@ import {
 } from "../../../client-common";
 import { AVAILABLE_FUNCTION_SIGNATURES } from "../constants";
 import { IMintTokenParams, ITokenVotingClientDecoding } from "../../interfaces";
-import { IERC20MintableUpgradeable__factory } from "@aragon/osx-ethers";
+import { IERC20MintableUpgradeable__factory } from "@bosagora/osx-ethers";
 import { mintTokenParamsFromContract } from "../utils";
 
 /**

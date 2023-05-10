@@ -8,7 +8,7 @@ title: Get Function Parameters
 Decodes the parameters of a function call.
 */
 
-import { Client } from "@aragon/sdk-client";
+import { Client } from "@bosagora/sdk-client";
 import { context } from "../index";
 
 // Instantiates an Aragon OSx SDK client.

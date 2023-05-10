@@ -8,7 +8,7 @@ title: DAO Details
 Gets a DAO's details using its address or ENS domain.
 */
 
-import { Client, DaoDetails } from "@aragon/sdk-client";
+import { Client, DaoDetails } from "@bosagora/sdk-client";
 import { context } from "../index";
 
 // Instantiate the general purpose client from the Aragon OSx SDK context.

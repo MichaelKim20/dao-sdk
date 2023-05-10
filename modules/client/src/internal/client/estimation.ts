@@ -3,13 +3,13 @@ import {
   DAOFactory,
   DAOFactory__factory,
   PluginRepo__factory,
-} from "@aragon/osx-ethers";
+} from "@bosagora/osx-ethers";
 import {
   InvalidAddressOrEnsError,
   NoProviderError,
   NoSignerError,
   NoTokenAddress,
-} from "@aragon/sdk-common";
+} from "@bosagora/sdk-common";
 import { AddressZero } from "@ethersproject/constants";
 import { Contract } from "@ethersproject/contracts";
 import { erc20ContractAbi } from "../abi/erc20";

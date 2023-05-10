@@ -3,7 +3,7 @@ import {
   GraphQLError,
   NoNodesAvailableError,
   runAndRetry,
-} from "@aragon/sdk-common";
+} from "@bosagora/sdk-common";
 import { ClientError, GraphQLClient } from "graphql-request";
 import { Context } from "../../client-common/context";
 import { QueryStatus } from "../graphql-queries";
@@ -23,7 +23,7 @@ export class GraphqlModule implements IClientGraphQLCore {
    * @returns {GraphQLClient}
    */
   public getClient(): GraphQLClient {
-    if (!this.clients.length || !this.clients[this.clientIdx]) {
+    if (!this.clients.length) {
       throw new ClientNotInitializedError("graphql");
     }
     return this.clients[this.clientIdx];

@@ -16,7 +16,7 @@ import {
   ProposalCreationError,
   resolveIpfsCid,
   UnsupportedNetworkError,
-} from "@aragon/sdk-common";
+} from "@bosagora/sdk-common";
 import { isAddress } from "@ethersproject/address";
 import {
   AddresslistVotingPluginPrepareInstallationParams,
@@ -67,7 +67,7 @@ import {
   AddresslistVoting__factory,
   PluginRepo__factory,
   PluginSetupProcessor__factory,
-} from "@aragon/osx-ethers";
+} from "@bosagora/osx-ethers";
 import { toUtf8Bytes } from "@ethersproject/strings";
 import {
   EMPTY_PROPOSAL_METADATA_LINK,
@@ -539,6 +539,7 @@ export class AddresslistVotingClientMethods extends ClientCore
       params,
       name,
     });
+    await this.ipfs.ensureOnline();
     return Promise.all(
       addresslistVotingProposals.map(
         async (

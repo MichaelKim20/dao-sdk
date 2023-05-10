@@ -12,7 +12,7 @@ These are the details of the token used to vote in that specific DAO.
 import {
   ContextPlugin,
   TokenVotingClient
-} from "@aragon/sdk-client";
+} from "@bosagora/sdk-client";
 import { context } from "../index";
 
 // Instantiate a plugin context from the Aragon OSx SDK context.

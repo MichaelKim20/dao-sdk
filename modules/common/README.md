@@ -1,6 +1,6 @@
 # Aragon JS SDK Common
 
-@aragon/sdk-common provides general purpose components to use across the entire Aragon SDK:
+@bosagora/sdk-common provides general purpose components to use across the entire Aragon SDK:
 - Interfaces
 - Constants
 - Types
@@ -10,11 +10,11 @@
 # Installation
 
 Use [npm](https://www.npmjs.com/) or [yarn](https://yarnpkg.com/) to install
-@aragon/sdk-common.
+@bosagora/sdk-common.
 
 ```bash
-npm install @aragon/sdk-common
-yarn add @aragon/sdk-common
+npm install @bosagora/sdk-common
+yarn add @bosagora/sdk-common
 ```
 
 # Usage
@@ -26,7 +26,7 @@ yarn add @aragon/sdk-common
 ### Converting buffers and hex strings
 
 ```ts
-import { hexToBytes, bytesToHex } from "@aragon/sdk-common";
+import { hexToBytes, bytesToHex } from "@bosagora/sdk-common";
 
 const buff = hexToBytes("0xffffffff");
 // [255, 255, 255, 255]
@@ -41,7 +41,7 @@ const str = bytesToHex(new Uint8Array([100, 100, 100, 100, 100, 100]), true);
 ### Converting between buffers and big integers
 
 ```ts
-import { bigIntToBuffer, bigIntToLeBuffer } from "@aragon/sdk-common";
+import { bigIntToBuffer, bigIntToLeBuffer } from "@bosagora/sdk-common";
 
 const bi = BigInt("111122223333444455556666777788889999000011112222333344445555666677778888999900")
 const buff = bigIntToBuffer(bi);
@@ -52,7 +52,7 @@ const buffLe = bigIntToLeBuffer(bi);
 ```
 
 ```ts
-import { bufferToBigInt, bufferLeToBigInt } from "@aragon/sdk-common";
+import { bufferToBigInt, bufferLeToBigInt } from "@bosagora/sdk-common";
 
 const buff = new Uint8Array([
   245, 172, 243,  22, 170, 44,  13,  78,
@@ -78,7 +78,7 @@ const hex = bufferLeToBigInt(buffLe);
 Encodes ratio values between 0 and 1 translated into an integer range with the given digit precision
 
 ```ts
-import { encodeRatio, decodeRatio } from "@aragon/sdk-common";
+import { encodeRatio, decodeRatio } from "@bosagora/sdk-common";
 
 let digits = 1
 encodeRatio(0.5, digits) // 5
@@ -94,7 +94,7 @@ encodeRatio(0.57625, digits) // 5762
 ### Hex prefix guards
 
 ```ts
-import { strip0x, ensure0x } from "@aragon/sdk-common";
+import { strip0x, ensure0x } from "@bosagora/sdk-common";
 
 strip0x("1234")
 // "1234"
@@ -112,7 +112,7 @@ ensure0x("0x1234")
 For nonce based proposal ID's
 
 ```ts
-import { encodeProposalId, decodeProposalId } from "@aragon/sdk-common";
+import { encodeProposalId, decodeProposalId } from "@bosagora/sdk-common";
 
 encodeProposalId(pluginAddr, nonce)
 // 0x1234567890123456789012345678901234567890_0x7

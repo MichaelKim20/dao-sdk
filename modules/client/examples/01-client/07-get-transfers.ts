@@ -18,7 +18,7 @@ import {
   Transfer,
   TransferSortBy,
   TransferType
-} from "@aragon/sdk-client";
+} from "@bosagora/sdk-client";
 import { context } from "../index";
 
 // Instantiate the general purpose client from the Aragon OSx SDK context.

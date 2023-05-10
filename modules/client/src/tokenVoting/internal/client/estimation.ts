@@ -1,4 +1,4 @@
-import { TokenVoting__factory } from "@aragon/osx-ethers";
+import { TokenVoting__factory } from "@bosagora/osx-ethers";
 import {
   ClientCore,
   ContextPlugin,
@@ -13,7 +13,7 @@ import {
   decodeProposalId,
   NoProviderError,
   NoSignerError,
-} from "@aragon/sdk-common";
+} from "@bosagora/sdk-common";
 /**
  * Estimation module the SDK TokenVoting Client
  */

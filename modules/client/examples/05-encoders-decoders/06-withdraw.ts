@@ -22,7 +22,7 @@ import {
   DaoAction,
   TokenType,
   WithdrawParams
-} from "@aragon/sdk-client";
+} from "@bosagora/sdk-client";
 import { context } from "../index";
 
 // Instantiates an Aragon OSx SDK client.

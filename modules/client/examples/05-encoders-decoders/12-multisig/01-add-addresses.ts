@@ -19,7 +19,7 @@ If this is not done correctly the transaction may fail and in the worst case bri
 import {
   AddAddressesParams,
   DaoAction,
-} from "@aragon/sdk-client";
+} from "@bosagora/sdk-client";
 import { multisigClient } from "./index";
 
 // The addresses to add as members.

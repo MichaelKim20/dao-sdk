@@ -31,12 +31,12 @@ import { defaultAbiCoder, Result } from "@ethersproject/abi";
 import { keccak256 } from "@ethersproject/keccak256";
 import { toUtf8Bytes } from "@ethersproject/strings";
 import { AddressZero } from "@ethersproject/constants";
-import { PluginSetupProcessor } from "@aragon/osx-ethers";
+import { PluginSetupProcessor } from "@bosagora/osx-ethers";
 import {
   ApplyInstallationParams,
   DecodedApplyInstallationParams,
 } from "../client-common";
-import { hexToBytes } from "@aragon/sdk-common";
+import { hexToBytes } from "@bosagora/sdk-common";
 
 export function unwrapDepositParams(
   params: DepositEthParams | DepositErc20Params,

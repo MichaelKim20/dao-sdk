@@ -10,7 +10,7 @@ Encodes the action of setting the signatura validator of the DAO.
 ### Encoding
 */
 
-import { Client, DaoAction } from "@aragon/sdk-client";
+import { Client, DaoAction } from "@bosagora/sdk-client";
 import { context } from '../index';
 
 

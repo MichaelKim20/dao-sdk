@@ -11,7 +11,7 @@ import {
 } from "../../../src";
 
 import { AddressZero } from "@ethersproject/constants";
-import { InvalidAddressError } from "@aragon/sdk-common";
+import { InvalidAddressError } from "@bosagora/sdk-common";
 import { contextParamsLocalChain } from "../constants";
 
 describe("Token Voting Client", () => {

@@ -2,7 +2,7 @@ import {
   hexToBytes,
   InvalidAddressError,
   UnsupportedNetworkError,
-} from "@aragon/sdk-common";
+} from "@bosagora/sdk-common";
 import {
   ClientCore,
   ContextPlugin,
@@ -21,7 +21,7 @@ import {
 } from "../../interfaces";
 import {
   IERC20MintableUpgradeable__factory,
-} from "@aragon/osx-ethers";
+} from "@bosagora/osx-ethers";
 import {
   mintTokenParamsToContract,
   tokenVotingInitParamsToContract,

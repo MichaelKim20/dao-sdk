@@ -26,7 +26,7 @@ import {
   VoteValues,
   VotingMode,
 } from "../../../src";
-import { InvalidAddressOrEnsError } from "@aragon/sdk-common";
+import { InvalidAddressOrEnsError } from "@bosagora/sdk-common";
 import {
   contextParamsLocalChain,
   contextParamsOkWithGraphqlTimeouts,

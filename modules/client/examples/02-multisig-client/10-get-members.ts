@@ -11,7 +11,7 @@ Gets the list of addresses able to participate in a Multisig proposal for a give
 import {
   ContextPlugin,
   MultisigClient
-} from "@aragon/sdk-client";
+} from "@bosagora/sdk-client";
 import { context } from "../index";
 
 // Instantiate a plugin context from the Aragon OSx SDK context.

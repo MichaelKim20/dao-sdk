@@ -12,7 +12,7 @@ import {
   ContextPlugin,
   TokenVotingClient,
   TokenVotingProposal
-} from "@aragon/sdk-client";
+} from "@bosagora/sdk-client";
 import { context } from "../index";
 
 // Instantiate a plugin context from an Aragon OSx SDK context.
